@@ -6,7 +6,9 @@
 --white:#ffffff;
 }
 
-
+i.fas{
+    padding-right: 35px
+}
 body{
     margin: 0;
 }
