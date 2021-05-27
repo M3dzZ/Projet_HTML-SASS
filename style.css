@@ -9,3 +9,12 @@
 body{
     max-width: 375px;
 }
+
+nav{
+    display: flex;    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
