@@ -2,24 +2,33 @@
 --purple: #9356DC;
 --pink: #FF79DA;
 --green: #99E2D0;
+--gray: #d2d2d2;
 }
 
 
 
 body{
-    max-width: 375px;
+    margin: 0;
 }
 
 img {
     height: 120px;
     width: 350px;
-    padding-top: 20px;
 }
-html{
+header{
     display: flex;
     justify-content: center;
+    flex-direction: center;
 }
 
 .logo{
     cursor: pointer;
 }
+
+form{
+    width: 980px;
+    height:120px;
+    background-color: var(--gray);
+    margin: 0px;
+}
+    
