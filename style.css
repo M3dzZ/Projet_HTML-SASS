@@ -5,7 +5,7 @@
 --gray: #ededed;
 --white:#ffffff;
 }
-
+  
 i.fas{
     padding-right: 35px
 }
@@ -37,15 +37,11 @@ form{
     background-color: var(--gray);
     margin: 0px;
     box-shadow: rgba(70, 70, 82, 0.25) 0px 30px 50px -20px inset, rgba(80, 78, 78, 0.3) 0px 18px 36px -20px inset;
-}    
+} 
 
 .searchBar{
     font-family: roboto;
     font-size: 40px;
-}
-
-.fa-map-marker-alt{
-    padding-right: 35px
 }
 
 .card-menu{
@@ -56,21 +52,21 @@ form{
     width: 100%;
     height: 650px;
     background-color:#f9f3f3;
-    row-gap: 10px;
 }
 .title{
+    display: flex;
     font-size: 55px;
     font-weight: bold;
     font-family: roboto;
-    padding-top: 60px;
+    
     
 }
 .subtitle{
     display: flex;
-    justify-content: center;
+    align-items: center;
     font-size: 40px; 
     font-family: roboto;
-    padding: 10px 50px 10px 50px ;
+    
 }
 
 .ExploreRestaurant{
