@@ -45,3 +45,38 @@ form{
 .fa-map-marker-alt{
     padding-right: 35px
 }
+
+.card-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    background-color:#f9f3f3;
+    row-gap: 10px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: roboto;
+    padding-top: 60px;
+    
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 40px; 
+    font-family: roboto;
+    padding: 10px 50px 10px 50px ;
+}
+
+.ExploreRestaurant{
+    width: 500px;
+    height: 120px;
+    background-image:linear-gradient(#FF79DA,#9356DC);
+    border-radius: 70px;
+    border:none;
+    font-size: 35px;
+    cursor:pointer;
+    color: var(--white);
+}
