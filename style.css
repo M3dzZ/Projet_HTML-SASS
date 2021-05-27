@@ -50,8 +50,9 @@ form{
 
 .card-menu{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 650px;
     background-color:#f9f3f3;
