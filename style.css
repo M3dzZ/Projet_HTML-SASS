@@ -19,6 +19,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: center;
+    padding-top: 20px;
 }
 
 .logo{
@@ -26,9 +27,21 @@ header{
 }
 
 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 980px;
     height:120px;
     background-color: var(--gray);
     margin: 0px;
     box-shadow: rgba(70, 70, 82, 0.25) 0px 30px 50px -20px inset, rgba(80, 78, 78, 0.3) 0px 18px 36px -20px inset;
 }    
+
+.searchBar{
+    font-family: roboto;
+    font-size: 40px;
+}
+
+.fa-map-marker-alt{
+    padding-right: 35px
+}
