@@ -2,7 +2,7 @@
 --purple: #9356DC;
 --pink: #FF79DA;
 --green: #99E2D0;
---gray: #d2d2d2;
+--gray: #ededed;
 }
 
 
@@ -30,5 +30,5 @@ form{
     height:120px;
     background-color: var(--gray);
     margin: 0px;
-}
-    
+    box-shadow: rgba(70, 70, 82, 0.25) 0px 30px 50px -20px inset, rgba(80, 78, 78, 0.3) 0px 18px 36px -20px inset;
+}    
