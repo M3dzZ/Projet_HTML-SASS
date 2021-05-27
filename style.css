@@ -3,3 +3,9 @@
 --pink: #FF79DA;
 --green: #99E2D0;
 }
+
+
+
+body{
+    max-width: 375px;
+}
