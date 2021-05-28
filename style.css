@@ -110,6 +110,11 @@ form{
 
 }
 
+:hover.card-operation{
+    background-color: #EDDEF5;
+    
+}
+
 .icon{
     display: flex;
     justify-content: space-around;
