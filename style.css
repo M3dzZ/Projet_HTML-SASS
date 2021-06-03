@@ -11,8 +11,11 @@ i.fas{
     color: #8e8a8a
 }
 html{
-    min-width: 375px;
     scroll-behavior: smooth;
+}
+
+body{
+    margin:0
 }
 
 img {
@@ -24,6 +27,10 @@ header{
     justify-content: center;
     flex-direction: center;
     padding-top: 20px;
+}
+
+.wrapper{
+    overflow-x: hidden;
 }
 
 .logo{
@@ -43,7 +50,7 @@ form{
 
 .searchBar{
     font-family: roboto;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .card-menu{
@@ -66,7 +73,7 @@ form{
 .subtitle{
     display:inline;
     align-items: center;
-    font-size: 40px; 
+    font-size: 20px; 
     font-family: roboto;
     
 }
@@ -77,13 +84,13 @@ form{
     background-image:linear-gradient(#FF79DA,#9356DC);
     border-radius: 70px;
     border:none;
-    font-size: 35px;
+    font-size: 20px;
     cursor:pointer;
     color: var(--white);
 }
 .title-operation{
     display: flex;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     font-family: roboto;
     padding: 50px 20px 50px 50px;
@@ -107,7 +114,7 @@ form{
     border-radius: 40px;
     box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
     font-weight: bold;
-    font-size:35px;
+    font-size: 20px;
     font-family: Roboto;
     cursor: pointer;
 
@@ -132,7 +139,7 @@ form{
 
 span{
     color:white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .card-restaurants{
@@ -147,7 +154,7 @@ span{
 .title-small-card{
     display: flex;
     font-weight: bold; 
-    font-size: 50px; 
+    font-size: 30px; 
     font-family: Roboto;
 }
 
@@ -174,7 +181,7 @@ span{
 }
 
 i.far.fa-heart{
-   font-size: 70px;
+   font-size: 50px;
     transform: translateY(20px);
     padding-right: 30px;
 }
@@ -188,11 +195,11 @@ i.far.fa-heart{
 
 .title-footer{
     font-family: Shrikhand;
-    font-size: 55px;
+    font-size: 35px;
 }
 
 .col{
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 20px;
     padding-bottom: 15px;
 }
