@@ -221,6 +221,9 @@ i.far.fa-heart{
 
 .menu-content{
 margin-top: -50px;
-position: relative;
 
+}
+.img-top{
+    max-height: 255px;
+    object-fit: cover;
 }
