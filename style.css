@@ -209,7 +209,18 @@ i.far.fa-heart{
     padding-bottom: 10px;
 }
 
-.img-top{
-    height:220px;
-    object-fit: cover;
+
+.background-restaurant{
+    height: 1500px;
+    width: 100%;
+    background-color: #f9f3f3;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    
+}
+
+.menu-content{
+margin-top: -50px;
+position: relative;
+
 }
