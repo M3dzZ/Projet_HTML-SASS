@@ -211,19 +211,74 @@ i.far.fa-heart{
 
 
 .background-restaurant{
-    height: 1500px;
-    width: 100%;
+    height: 1300px;
+    width: 93%;
     background-color: #f9f3f3;
     border-radius: 40px 40px 0 0;
     position: relative;
+    padding:15px;
     
 }
 
 .menu-content{
-margin-top: -50px;
+    margin-top: -50px;
 
 }
 .img-top{
     max-height: 255px;
     object-fit: cover;
+}
+
+.title-palette{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    font-family: Shrikhand;
+    padding:20px 0 0 0 ;
+
+}
+
+.entry{
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.underline{
+width: 35px;
+height: 5px;
+background-color: var(--green);
+margin: 5px 0 20px 2px;
+}
+
+.parent{
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+
+}
+
+.card-entry{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.parent-button{
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.order{
+    width: 55%;
+    height: 55px;
+    background-image:linear-gradient(#FF79DA,#9356DC);
+    border-radius: 70px;
+    border:none;
+    font-size: 20px;
+    cursor:pointer;
+    color: var(--white);
+    margin: 50px 0 50px 0;
 }
