@@ -76,7 +76,7 @@ form{
     justify-content: space-between;
     
 }
-.sub-title{
+.subtitle{
     font-size: 15px; 
     font-family:roboto;
     
@@ -288,4 +288,12 @@ justify-content: space-evenly;
     flex-direction: column;
     padding: 10px;
     row-gap: 5px;
+}
+
+.sub-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px; 
+    font-family:roboto;
+    
 }
