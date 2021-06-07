@@ -61,7 +61,7 @@ form{
 .card-menu{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     height: 300px;
