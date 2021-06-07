@@ -302,3 +302,29 @@ justify-content: space-evenly;
     font-weight: bold;
     font-size: 15px;
 }
+
+.parent-new{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(-15px);
+    
+}
+
+
+
+.new{
+    width: 60px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #99e2d0;
+    color:#1b6150;
+    position: absolute;
+    padding: 5px;
+    font-family: roboto;
+    border-radius: 2px;
+    transform: translateY(15px);
+    font-size: 13px;
+
+    
+}
