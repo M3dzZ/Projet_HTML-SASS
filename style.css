@@ -58,6 +58,11 @@ form{
     font-weight: bold;
 }
 
+.arrow-left{
+    display: flex;
+    align-items: center;
+}
+
 .card-menu{
     display: flex;
     flex-direction: column;
