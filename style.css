@@ -220,6 +220,11 @@ i.far.fa-heart{
     padding-bottom: 10px;
 }
 
+.col > i{
+color: white;
+}
+
+
 
 .background-restaurant{
     width: 100%;
