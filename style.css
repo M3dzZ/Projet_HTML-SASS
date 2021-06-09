@@ -139,6 +139,17 @@ form{
     
 }
 
+:hover.card-operation > i {
+    color: var(--purple);
+}
+
+.card-operation > i {
+    left: 110px;
+    position: absolute;
+    color: black; 
+}
+
+
 .icon{
     display: flex;
     justify-content: space-around;
