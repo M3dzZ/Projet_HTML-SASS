@@ -17,24 +17,25 @@ html{
 body{
     margin:0
 }
-    
- header{
-display: flex;
-justify-content: center;
-flex-direction: center;
-padding-top: 15px;
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    padding-top: 15px;
+    position: relative;
 }
-    
+
 .wrapper{
-overflow-x: hidden;
+    overflow-x: hidden;
 }
-    
+
 .logo{
-cursor: pointer;
+    cursor: pointer;
 }
 
 img{
-width: 100%;
+    width: 100%;
 }
 
 a{
@@ -61,6 +62,10 @@ form{
 .arrow-left{
     display: flex;
     align-items: center;
+    left: 10px;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
 }
 
 .card-menu{
@@ -314,8 +319,6 @@ justify-content: space-evenly;
     
 }
 
-
-
 .new{
     width: 60px;
     height: 15px;
@@ -329,6 +332,16 @@ justify-content: space-evenly;
     border-radius: 2px;
     transform: translateY(15px);
     font-size: 13px;
+}
+/* breakpoint for mobile devices */
 
+@media screen and (min-width: 770px){
+    .card-restaurants{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "small-card small-card"
+            "small-card small-card";
+    }
     
 }
