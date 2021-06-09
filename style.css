@@ -131,6 +131,8 @@ form{
     font-size: 15px;
     font-family: Roboto;
     cursor: pointer;
+    position: relative;
+    transition: all 250ms;
 
 }
 
@@ -158,7 +160,8 @@ form{
     height: 25px;
     border-radius: 50%;
     background-color: var(--purple);
-    transform: translate(-35px);
+    left: -13px;
+    position: absolute;
 }
 
 span{
