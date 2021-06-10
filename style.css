@@ -355,13 +355,29 @@ justify-content: space-evenly;
 }
 /* breakpoint for mobile devices */
 
-@media screen and (min-width: 770px){
-    .card-restaurants{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-            "small-card small-card"
-            "small-card small-card";
+@media screen and (min-width: 900px){
+    .parent-smallcard{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
+            gap: 20px;
+    }
+
+    .parent-operation{
+        flex-direction: row;
+        justify-content: space-between;
+        gap:30px
+
+    }
+
+    .background-restaurant{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-content{
+    display: flex;
+    justify-content: space-around;
     }
     
 }
