@@ -109,6 +109,13 @@ form{
     font-family: roboto;
     padding: 50px 20px 30px 20px;
 
+.card-fonctionement{
+    padding:15px
+}
+
+.parent-smallcard{
+    display: grid;
+    gap: 20px;
 }
 .parent-operation{
     display: flex;
