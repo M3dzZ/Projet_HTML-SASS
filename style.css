@@ -311,7 +311,7 @@ justify-content: space-evenly;
 
 
 .order{
-    width: 55%;
+    min-width: 250px;
     height: 55px;
     background-image:linear-gradient(#FF79DA,#9356DC);
     border-radius: 70px;
