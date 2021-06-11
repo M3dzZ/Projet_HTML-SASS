@@ -295,6 +295,11 @@ color: white;
 
 }
 
+.subtitle-menu{
+    font-size: 17px;
+    font-family: roboto;
+}
+
 .title-card{
     font-family: Roboto;
     font-size: 15px;
