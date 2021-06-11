@@ -127,6 +127,14 @@ h1,h2{
     padding:15px
 }
 
+.title-menu{
+    font-weight: bold;  
+    font-size: 17px;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .parent-smallcard{
     display: grid;
     gap: 20px;
