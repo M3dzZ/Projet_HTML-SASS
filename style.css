@@ -89,7 +89,10 @@ form{
     justify-content: space-between;
     
 }
-.subtitle{
+
+.description{
+    display: flex;
+    justify-content: space-between;
     font-size: 15px; 
     font-family:roboto;
     
