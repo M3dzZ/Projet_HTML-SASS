@@ -72,13 +72,14 @@ form{
 .card-menu{
     display: flex;
     flex-direction: column;
-    width: 92%;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     height: 300px;
     background-color:#f6f6f6;
     text-align: center;
-    padding: 15px
+    box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+
 }
 .title{
     display:flex;
@@ -205,12 +206,14 @@ span{
     background-color: var(--white);
     cursor: pointer;
     overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
 }
 
 .imgsmall-card{
     display: flex;
     min-width: 100%;
     height: 65%;
+    box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
     object-fit: cover;
 }
 
