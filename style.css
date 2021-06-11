@@ -99,8 +99,8 @@ form{
 }
 
 .ExploreRestaurant{
-    min-width: 250px;;
-    height: 55px;
+    min-width: 200px;
+    height: 45px;
     background-image:linear-gradient(#FF79DA,#9356DC);
     border-radius: 70px;
     border:none;
