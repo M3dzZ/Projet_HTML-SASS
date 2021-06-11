@@ -72,12 +72,13 @@ form{
 .card-menu{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 92%;
     align-items: center;
     justify-content: space-evenly;
     height: 300px;
     background-color:#f6f6f6;
     text-align: center;
+    padding: 15px
 }
 .title{
     display:flex;
