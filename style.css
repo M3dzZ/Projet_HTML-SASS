@@ -321,6 +321,14 @@ padding:10px
 
 }
 
+.enfant-menu{
+    display: grid;
+}
+
+.menu{
+    padding-bottom: 20px;
+}
+
 .card{
     width: 100%;
     height: 70px;
