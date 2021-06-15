@@ -232,24 +232,51 @@ span{
     object-fit: cover;
 }
 
+:not(.heart) > i.far.fa-heart{
+    font-size: 25px;
+    transform: translateY(5px);
+    padding-right: 10px;
+}
+
 .card-content{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 15px 10px 15px 10px;
     row-gap: 2px;
 }
 
-i.far.fa-heart{
-   font-size: 25px;
-    transform: translateY(5px);
+.card-content > .heart {
+    position: relative;
+    height: 25px;
+    width: 25px;
     padding-right: 10px;
+    align-self: center;
 }
-.card-footer{
-    height: 175px;
-    background-color: #444444;
-    color: var(--white);
-    padding:20px;
+
+
+.card-content > .heart > i {
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    transition: opacity 250ms;
 }
+
+.card-content > .heart > :last-child {
+    opacity: 0;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+.card-content > .heart:hover > :last-child {
+    opacity: 1;
+}
+
+.card-content > .heart:hover > :first-child {
+    opacity: 0;
+}
+
 
 .title-footer{
     font-family: Shrikhand;
@@ -397,6 +424,15 @@ justify-content: space-evenly;
     transform: translateY(15px);
     font-size: 13px;
 }
+
+.card-footer{
+    height: 175px;
+    background-color: #444444;
+    color: var(--white);
+    padding:20px;
+}
+
+
 /* breakpoint for mobile devices */
 
 @media screen and (min-width: 900px){
