@@ -288,12 +288,16 @@ span{
     font-family: Roboto;
     font-size: 15px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .col > i{
 color: white;
 }
 
+.col:hover{
+    text-decoration: underline;
+}
 
 
 .background-restaurant{
