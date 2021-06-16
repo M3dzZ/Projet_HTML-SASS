@@ -478,6 +478,13 @@ justify-content: space-evenly;
         column-gap: 20px;}
 }
 
+@media screen and (max-width:355px){
+    
+    .card-operation > i {
+        left:25px
+    }
+}
+
 
 .loader {
     height: 100%;
