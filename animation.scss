@@ -14,6 +14,46 @@ section .card {
     overflow: hidden;
 }
 
+
+.content-menu {
+    position: relative;
+
+    .price { transition: all 300ms ease-in-out; }
+    .wrapper-icon {
+        position: absolute;
+        background-color: #99e2d0;
+        right: 0;
+        top: 0;
+        transform: translateX(100%);
+        height: 70px;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms ease-in-out;
+
+        i {
+            color: white;
+            font-size: 25px;
+            transform: rotate(180deg);
+            transition: all 300ms ease-in-out;
+        }
+    }
+}
+
+
+section .card:hover {
+    .wrapper-icon {
+        transform: translateX(0);
+
+        i {
+            transform: rotate(0);
+        }
+    }
+    .price { transform: translateX(-70px); }
+}
+
+
 @for $x from 1 through $sections {
     @for $y from 1 through $cards {
         section:nth-child(#{$x}) .card:nth-child(#{$y}) {
