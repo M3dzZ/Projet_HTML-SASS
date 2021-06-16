@@ -436,6 +436,10 @@ justify-content: space-evenly;
     padding:20px;
 }
 
+.col > :last-child {
+    color: white;
+}
+
 
 /* breakpoint for mobile devices */
 
