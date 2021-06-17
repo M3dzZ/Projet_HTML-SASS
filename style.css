@@ -40,7 +40,7 @@ form{
     align-items: center;
     width: 100%;
     height:60px;
-    background-color: var(--gray);
+    background-color: #f3f3f3;
     margin: 0px;
     box-shadow: rgba(70, 70, 82, 0.25) 0px 30px 50px -20px inset, rgba(80, 78, 78, 0.3) 0px 18px 36px -20px inset;
 } 
@@ -100,7 +100,7 @@ form{
     border:none;
     font-size: 20px;
     cursor:pointer;
-    color: var(--white);
+    color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition-duration: .25s;
 }
@@ -147,7 +147,7 @@ h1,h2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--gray) ;
+    background-color: #f6f6f6;
     width: 85%;
     height: 80px;
     border-radius: 25px;
@@ -167,7 +167,7 @@ h1,h2{
 }
 
 :hover.card-operation > i {
-    color: var(--purple);
+    color: #9356DC;
 }
 
 .card-operation > i {
@@ -185,7 +185,7 @@ h1,h2{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: var(--purple);
+    background-color: #9356DC;
     left: -13px;
     position: absolute;
 }
@@ -214,7 +214,7 @@ span{
     height: 210px;
     border-radius: 20px;
     position: relative;
-    background-color: var(--white);
+    background-color: #ffffff;
     cursor: pointer;
     overflow: hidden;
     box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
@@ -278,6 +278,7 @@ span{
     font-family: Shrikhand;
     font-size: 20px;
     padding-bottom: 10px;
+    color: white;
 }
 
 .col{
@@ -285,6 +286,7 @@ span{
     font-size: 15px;
     padding-bottom: 10px;
     cursor: pointer;
+    color: white;
 }
 
 .col > i{
@@ -336,7 +338,7 @@ color: white;
 .underline{
 width: 35px;
 height: 5px;
-background-color: var(--green);
+background-color: #99E2D0;
 margin: 5px 0 20px 2px;
 }
 
