@@ -14,7 +14,6 @@ body{
 header{
     display: flex;
     justify-content: center;
-    flex-direction: center;
     padding-top: 15px;
     position: relative;
 }
@@ -199,7 +198,6 @@ span{
 }
 
 .card-restaurants{
-    max-width: 100;
     background-color:#f6f6f6;
     padding: 15px 15px 70px 15px;
 }
