@@ -172,7 +172,7 @@ h1,h2{
     left: 110px;
     position: absolute;
     color: gray; 
-    left: 40px;
+    left: 30px;
 }
 
 
@@ -318,7 +318,6 @@ color: white;
     font-size: 25px;
     justify-content: space-between;
     font-family: Shrikhand;
-    padding:20px 0 0 0 ;
 
 }
 
@@ -481,20 +480,6 @@ justify-content: space-evenly;
     justify-content: space-around;
     }
     
-}
-
-/* @media screen and (min-width: 1150px){
-    .enfant-menu{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        column-gap: 20px;}
-} */
-
-@media screen and (max-width:355px){
-    
-    .card-operation > i {
-        left:25px
-    }
 }
 
 
