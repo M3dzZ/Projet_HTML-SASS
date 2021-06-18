@@ -127,8 +127,6 @@ h1,h2{
     font-weight: bold;  
     font-size: 17px;
     font-family: roboto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .parent-smallcard{
@@ -393,30 +391,40 @@ justify-content: space-evenly;
 }
 
 .content-menu{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.title-wrapper {
+    padding: 10px 30px 10px 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px 30px 10px 10px;
     row-gap: 5px;
+    overflow: hidden;
+}
+
+.title-wrapper > * {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .sub-title{
-    display: flex;
-    justify-content: space-between;
     font-size: 15px; 
     font-family:roboto;
-    
 }
 
 .price{
     font-weight: bold;
     font-size: 15px;
+    font-family: roboto;
+    padding-right: 15px;
 }
 
 .parent-new{
     display: flex;
     justify-content: flex-end;
     transform: translateX(-15px);
-    
 }
 
 .new{
@@ -475,16 +483,23 @@ justify-content: space-evenly;
     
 }
 
-@media screen and (min-width: 1150px){
+/* @media screen and (min-width: 1150px){
     .enfant-menu{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         column-gap: 20px;}
-}
+} */
 
 @media screen and (max-width:355px){
     
     .card-operation > i {
         left:25px
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .card{
+        width: calc(100vw - 20px);   
     }
 }
