@@ -247,6 +247,10 @@ span{
     row-gap: 2px;
 }
 
+.parent > .card-content {
+    padding:0px;
+}
+
 .card-content > .heart {
     position: relative;
     height: 25px;
