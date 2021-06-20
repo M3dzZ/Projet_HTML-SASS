@@ -119,6 +119,14 @@ h1,h2{
 
 }
 
+h3,h4{
+    margin: 0;
+}
+
+h4{
+    font-weight: normal;
+}
+
 .card-fonctionement{
     padding:15px
 }
