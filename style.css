@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+:not(.order, .icon, .ExploreRestaurant) > span {
+    color: black !important;
+}
+
 body{
     margin:0
 }
