@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 
-:not(.order, .icon, .ExploreRestaurant) > span {
+:not(.order):not(.icon):not(.ExploreRestaurant) > span {
     color: black !important;
 }
 
