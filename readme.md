@@ -13,7 +13,7 @@ Dans le but de développer mes compétences en HTML/CSS et SASS, j'ai intégré 
 <li>Intégrer une maquette en site web.</li>
 <li>Réaliser un site responsive.</li>
 <li>Utiliser des animations SCSS.</li>
-<li>Crée un loader</li>
+<li>Crée un loader.</li>
 <li>Respecter l'identité graphique.</li>
 
 </ul>
