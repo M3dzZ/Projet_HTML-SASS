@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%"  id= img-readme src="./assets/images/logo/img-readme.png">
+  <img width="50%"  id= img-readme src="./assets/images/logo/img-readme.png">
 </p>
 
 <h1>Contexte</h1>
